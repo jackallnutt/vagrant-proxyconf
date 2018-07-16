@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem 'vagrant',
   git: 'https://github.com/mitchellh/vagrant.git',
-  ref: ENV.fetch('VAGRANT_VERSION', 'v1.9.7')
+  ref: ENV.fetch('VAGRANT_VERSION', 'v2.1.2')
 
 gem 'rake'
 gem 'rspec', '~> 3.1'
